@@ -1,4 +1,4 @@
-Pour l'administration du serveur, utilisez la console Minecraft ou mcrcon (qui est ouverte sur le port __PORT__ et utilise le mot de passe __PASSWORD__).
+Pour l'administration du serveur, utilisez la console Minecraft ou mcrcon (qui est ouverte sur le port __PORT__).
 
 Pour utiliser mcrcon, allez dans `__INSTALL_DIR__/mcrcon` et tapez :
 ```
