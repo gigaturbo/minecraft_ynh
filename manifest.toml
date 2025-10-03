@@ -33,14 +33,14 @@ ram.runtime = "50M"
     ask.en = "Select your server"
     ask.fr = "Choisir votre serveur"
     type = "select"
-    choices = ["vanilla", "vanilla-snapshot", "paper"]
+    choices = ["vanilla", "paper", "fabric"]
     default = "vanilla"
 
     [install.ram]
     ask.en = "Set the memory limit for the server. Convert the number to mebibytes (binary MB): for example, 2GB = 2048, 4GB = 4096..."
     ask.fr = "Définir la mémoire du serveur ? Convertir le chiffre en mébioctets (Mo binaires) : soit 2Go = 2048, 4Go = 4096..."
     type = "select"
-    choices = ["1024", "2048", "4096"]
+    choices = ["1024","2048","4096","8096","6144","8192","10240","12288","16384"]
     default = "2048"
 
     [install.op]
@@ -61,6 +61,13 @@ ram.runtime = "50M"
         in_subdir = false
 
         [resources.sources.paper]
+        url = "https://meta.fabricmc.net/v2/versions/loader/1.21.9/0.17.2/1.1.0/server/jar"
+        sha256 = "7a979c63e26bdb1949ffec44cebbab892d457f61b971e7398026a1f4bbeec8bf"
+        rename = "server.jar"
+        in_subdir = false
+        extract = false
+
+        [resources.sources.paper]
         url = "https://api.papermc.io/v2/projects/paper/versions/1.21.1/builds/128/downloads/paper-1.21.1-128.jar"
         sha256 = "4dab63990686350dbf713f9044991f112cebadb64a44865cd79a5a750b820d91"
         rename = "server.jar"
@@ -73,20 +80,7 @@ ram.runtime = "50M"
         rename = "server.jar"
         in_subdir = false
         extract = false
-
-        [resources.sources.vanilla-snapshot]
-        url = "https://piston-data.mojang.com/v1/objects/45810d238246d90e811d896f87b14695b7fb6839/server.jar"
-        sha256 = "e153b89b02c0839cdf5e8c1d57c80dd42a3fffb80c60817632080c041bf8afb5"
-        rename = "server.jar"
-        in_subdir = false
-        extract = false
         
-        #[resources.sources.spigot]
-        #url = "https://download.getbukkit.org/spigot/spigot-1.21.jar"
-        #sha256 = ""
-        #rename = "server.jar"
-        #in_subdir = false
-        #extract = false
 
     [resources.ports]
     main.default = 25565
@@ -101,7 +95,7 @@ ram.runtime = "50M"
     [resources.permissions]
 
     [resources.apt]
-    packages = "openjdk-17-jre"
+    packages = "openjdk-21-jre"
 
     # [resources.apt]
     # packages_from_raw_bash = """
