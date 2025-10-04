@@ -3,6 +3,5 @@ Minecraft is a sandbox construction game, whose gameplay involves players intera
 ### Supported Servers
  
 1. Minecraft (Vanilla)
-2. Minecraft (Vanilla snapshot)
-3. Spigot
+2. Fabric
 4. Paper

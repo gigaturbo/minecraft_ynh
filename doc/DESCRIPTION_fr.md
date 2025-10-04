@@ -2,7 +2,6 @@ Minecraft est un jeu de construction de type bac à sable, dont le gameplay impl
 
 ### Serveurs pris en charge
  
-1. Minecraft (Vanille)
-2. Minecraft (instantané vanille)
-3. Robinet
-4. Papier
+1. Minecraft (Vanilla)
+2. Fabric
+3. Paper
