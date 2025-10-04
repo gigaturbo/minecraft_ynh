@@ -61,15 +61,15 @@ ram.runtime = "50M"
         in_subdir = false
 
         [resources.sources.fabric]
-        url = "https://meta.fabricmc.net/v2/versions/loader/1.21.9/0.17.2/1.1.0/server/jar"
-        sha256 = "7a979c63e26bdb1949ffec44cebbab892d457f61b971e7398026a1f4bbeec8bf"
+	url = "https://meta.fabricmc.net/v2/versions/loader/1.21.8/0.17.2/1.1.0/server/jar"
+        sha256 = "80f66e6db645ebfab1fa70f178282e2a41b202c9f348a0bceb4967c0dd2c7522"
         rename = "server.jar"
         in_subdir = false
         extract = false
 
         [resources.sources.paper]
-        url = "https://api.papermc.io/v2/projects/paper/versions/1.21.1/builds/128/downloads/paper-1.21.1-128.jar"
-        sha256 = "4dab63990686350dbf713f9044991f112cebadb64a44865cd79a5a750b820d91"
+	url = "https://fill-data.papermc.io/v1/objects/8de7c52c3b02403503d16fac58003f1efef7dd7a0256786843927fa92ee57f1e/paper-1.21.8-60.jar"
+        sha256 = "8de7c52c3b02403503d16fac58003f1efef7dd7a0256786843927fa92ee57f1e"
         rename = "server.jar"
         in_subdir = false
         extract = false
