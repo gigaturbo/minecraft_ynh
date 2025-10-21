@@ -56,8 +56,8 @@ ram.runtime = "50M"
 [resources]
     [resources.sources]
         [resources.sources.mcrcon]
-        url = "https://github.com/Tiiffi/mcrcon/releases/download/v0.7.2/mcrcon-0.7.2-linux-x86-64.tar.gz"
-        sha256 = "c1883c3f6610c751c935f4faefbf2c52f704a0f71013be2928972eef5918cb68"
+        url = "https://github.com/Tiiffi/mcrcon/releases/download/v0.7.2/mcrcon-0.7.2-linux-x86-64-static.zip"
+        sha256 = "790bfdd4f51245bc40f909e3a915f98cf569f57b0edf47697f5d72e0b86c2877"
         in_subdir = false
 
         [resources.sources.fabric]
