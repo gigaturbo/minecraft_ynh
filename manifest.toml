@@ -5,7 +5,7 @@ name = "Minecraft"
 description.en = "Three-dimensional sandbox construction game"
 description.fr = "Jeu de construction de type \"bac à sable\" en trois dimensions"
 
-version = "1.22.0~ynh1"
+version = "1.23.0~ynh1"
 
 maintainers = []
 
@@ -61,8 +61,8 @@ ram.runtime = "50M"
         in_subdir = false
 
         [resources.sources.fabric]
-	url = "https://meta.fabricmc.net/v2/versions/loader/1.21.8/0.17.2/1.1.0/server/jar"
-        sha256 = "80f66e6db645ebfab1fa70f178282e2a41b202c9f348a0bceb4967c0dd2c7522"
+	url = "https://meta.fabricmc.net/v2/versions/loader/1.21.10/0.17.3/1.1.0/server/jar"
+        sha256 = "373d2dac676afea5091a478b83bbf6db6599d9be4abd90f38d2ed6f93d8fba35"
         rename = "server.jar"
         in_subdir = false
         extract = false
