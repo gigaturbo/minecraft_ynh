@@ -40,7 +40,7 @@ ram.runtime = "50M"
     ask.en = "Set the memory limit for the server. Convert the number to mebibytes (binary MB): for example, 2GB = 2048, 4GB = 4096..."
     ask.fr = "Définir la mémoire du serveur ? Convertir le chiffre en mébioctets (Mo binaires) : soit 2Go = 2048, 4Go = 4096..."
     type = "select"
-    choices = ["1024","2048","4096","8096","6144","8192","10240","12288","16384"]
+    choices = ["1024","2048","4096","6144","8096","8192","10240","12288","16384"]
     default = "2048"
 
     [install.op]
@@ -55,10 +55,10 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources]
-        [resources.sources.mcrcon]
-        url = "https://github.com/Tiiffi/mcrcon/releases/download/v0.7.2/mcrcon-0.7.2-linux-x86-64-static.zip"
-        sha256 = "790bfdd4f51245bc40f909e3a915f98cf569f57b0edf47697f5d72e0b86c2877"
-        in_subdir = false
+#        [resources.sources.mcrcon]
+#        url = "https://github.com/Tiiffi/mcrcon/releases/download/v0.7.2/mcrcon-0.7.2-linux-x86-64-static.zip"
+#        sha256 = "790bfdd4f51245bc40f909e3a915f98cf569f57b0edf47697f5d72e0b86c2877"
+#        in_subdir = false
 
         [resources.sources.fabric]
 	url = "https://meta.fabricmc.net/v2/versions/loader/1.21.10/0.17.3/1.1.0/server/jar"
