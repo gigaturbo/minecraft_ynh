@@ -30,10 +30,6 @@ ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir" --source_id="$server"
 
-mkdir -p "$install_dir/mcrcon"
-ynh_setup_source --dest_dir="$install_dir/mcrcon" --source_id="mcrcon"
-
-chmod +x "$install_dir/mcrcon/mcrcon"
 chmod +x "$install_dir/server.jar"
 
 #=================================================

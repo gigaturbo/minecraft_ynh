@@ -55,20 +55,16 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources]
-#        [resources.sources.mcrcon]
-#        url = "https://github.com/Tiiffi/mcrcon/releases/download/v0.7.2/mcrcon-0.7.2-linux-x86-64-static.zip"
-#        sha256 = "790bfdd4f51245bc40f909e3a915f98cf569f57b0edf47697f5d72e0b86c2877"
-#        in_subdir = false
 
         [resources.sources.fabric]
-	url = "https://meta.fabricmc.net/v2/versions/loader/1.21.10/0.17.3/1.1.0/server/jar"
+	    url = "https://meta.fabricmc.net/v2/versions/loader/1.21.10/0.17.3/1.1.0/server/jar"
         sha256 = "373d2dac676afea5091a478b83bbf6db6599d9be4abd90f38d2ed6f93d8fba35"
         rename = "server.jar"
         in_subdir = false
         extract = false
 
         [resources.sources.paper]
-	url = "https://fill-data.papermc.io/v1/objects/8de7c52c3b02403503d16fac58003f1efef7dd7a0256786843927fa92ee57f1e/paper-1.21.8-60.jar"
+	    url = "https://fill-data.papermc.io/v1/objects/8de7c52c3b02403503d16fac58003f1efef7dd7a0256786843927fa92ee57f1e/paper-1.21.8-60.jar"
         sha256 = "8de7c52c3b02403503d16fac58003f1efef7dd7a0256786843927fa92ee57f1e"
         rename = "server.jar"
         in_subdir = false
@@ -93,16 +89,3 @@ ram.runtime = "50M"
     [resources.install_dir]
 
     [resources.permissions]
-
-#    [resources.apt]
-#    packages = "openjdk-21-jre"
-
-    # [resources.apt]
-    # packages_from_raw_bash = """
-    # debian=$(lsb_release --codename --short)
-    # if [[ $debian = "bullseye" ]]; then
-    #     echo "openjdk-11-jre";
-    # elif [[ $debian = "bookworm" ]]; then
-    #     echo "openjdk-17-jre";
-    # fi
-    # """
